@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Great+Vibes&family=Kaushan+Script&family=Marck+Script&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: { //untuk menambah aturan baru
+            fontFamily: {
+              great: ['Great Vibes'],
+              kaushan: ['Kaushan Script'],
+              marck: ['Marck Script'],
+              ephesis: ['ephesis'],
+              merienda: ['merienda']
+            },
+            colors :{
+              primary: '#115e59',
+              dark: '#042f2e',
+              light: '#f0fdfa',
+            },
+            animation: {
+              'spin-slow' : 'spin 3s linear infinite',
+              goyang : 'goyang 2s ease-in-out infinite'
+            },
+            keyframes: {
+              goyang: {
+                '0%, 100%' : { transform: 'rotate(-3deg)' },
+                '50%' : { transform: 'rotate(3deg)' },
+              },
+            },
+          }
+        }
+      }
+    </script>
+    <title>Invitation of Wedding Anniversary</title>
+
+    <style type="text/tailwindcss">
+      
+    </style>
+  </head>
+  <body class="bg-teal-100">
+      <section class="container mx-auto text-center py-10 text-dark md:py-8">
+          <div class="pb-8 font-semibold">
+              <p class="text-6xl font-great sm:text-7xl md:text-8xl">Happy</p>
+              <p class="text-9xl pt-4 bg-gradient-to-r from-dark to-amber-700 bg-clip-text text-transparent font-kaushan animate-goyang md:text-10xl">29 <span class="text-lg align-top">th</span></p>
+              <p class="font-great text-5xl pt-6 sm:text-6xl md:text-7xl">Wedding Anniversary</p>
+          </div>
+          <div class="border mx-8 mb-8 border-primary rounded-xl shadow-lg shadow-teal-900 bg-dark text-light hover:bg-opacity-95 md:mx-28 md:my-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1700">
+              <div class="container pt-5 grid grid-cols-3">
+                  <p class="font-semibold text-4xl self-center font-ephesis md:text-5xl lg:text-6xl">Mami<br><span class="font-medium text-lg font-marck md:text-2xl lg:text-3xl">Adhe Lasmiyati</span></p>
+                  <p class="font-semibold text-8xl font-marck self-center row-span-2">&</p>
+                  <p class="font-semibold text-4xl self-center font-ephesis md:text-5xl lg:text-6xl">Papi <br><span class="font-medium font-marck text-lg md:text-2xl lg:text-3xl">Asta Yoeniyanto</span></p>
+                  <p class="col-span-3 py-5 font-kaushan font-medium text-lg sm:text-xl md:text-2xl">May 17 <span class="font-base text-sm align-top">th</span>, 2024</p>
+              </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="container mx-auto text-center pt-28 text-dark">
+        <div class="grid md:grid-cols-2">
+          <p class="container capitalize font-bold text-6xl font-great self-center sm:text-7xl xl:text-8xl" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">dinner invitation</p>
+          <div class="grid grid-cols-2 px-20 self-center" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000">
+            <p class="text-sm pt-10 pb-1 capitalize font-medium font-merienda col-span-2">save the date</p>
+              <p class="py-1 border-y-4 border-r-2 font-semibold text-xl border-primary font-merienda xl:text-2xl">Sunday<br>
+                <span class="text-5xl font-bold font-kaushan">19 <span class="font-base text-sm align-top">th</span></span><br>May, 2024</p>
+              <p class="border-y-4 border-l-2 border-primary font-semibold text-lg font-merienda pt-6 md:pt-1 lg:pt-5 xl:pt-6 xl:text-2xl">07.00 PM - end<br>
+                <span class="font-bold">Baleroso Godean</span></p>
+              <p class="capitalize pt-1 font-merienda col-span-2">dresscode : white and green</p>
+          </div>
+        </div>
+        <p class="container p-10 font-marck font-semibold text-dark text-xl md:p-14 md:text-2xl xl:pt-16" data-aos="zoom-in" data-aos-duration="3000">Mom and Dad, we cann't begin to describe how blessed we are to have amazing parents in our life. Seeing true love through you both makes our heart happy. As your daughters and son, we see perfection in both of you. We love you❤️</p>
+      </section>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  </body>
+</html>
